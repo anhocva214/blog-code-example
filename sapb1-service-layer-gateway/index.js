@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const https = require("https");
 
 const app = express();
-const SERVICE_LAYER_HOST = "192.168.3.10";
+const SERVICE_LAYER_HOST = "192.168.1.10";
 const SERVICE_LAYER_PORT = "50000";
 const PORT = 3000;
 const SAP_SERVICE_URL = `https://${SERVICE_LAYER_HOST}:${SERVICE_LAYER_PORT}/b1s/v1`;
